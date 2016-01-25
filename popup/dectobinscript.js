@@ -100,7 +100,7 @@ function signed_dec(bin_signed) {
 function main_funct() {
 	
 	var dec_N = parseFloat(document.getElementById('dec_num').value);
-	if (dec_N != dec_N) {document.getElementById("answer").innerHTML = ' Please input a valid number'}
+	if (dec_N != dec_N) {document.getElementById("answer").textContent = ' Please input a valid number'}
 	else {
 	var bin_main = unsigned_dec(dec_N);
 	var fl_ind = parseInt(dec_N);
@@ -126,12 +126,12 @@ function main_funct() {
 
 	
 	if (fl_ind == dec_N) {
-		document.getElementById("answer").innerHTML = (bin_1.join("") + " " + bin_2.join("") + " " + bin_3.join("")+ " " + bin_4.join("") );
+		document.getElementById("answer").textContent = (bin_1.join("") + " " + bin_2.join("") + " " + bin_3.join("")+ " " + bin_4.join("") );
 	}
 	
 	else {
 
-		document.getElementById("answer").innerHTML = (bin_1.join("") + " " + bin_2.join("") + " " + bin_3.join("")+ " " + bin_4.join("") + "." +  float_1.join("") + " " + float_2.join(""));
+		document.getElementById("answer").textContent = (bin_1.join("") + " " + bin_2.join("") + " " + bin_3.join("")+ " " + bin_4.join("") + "." +  float_1.join("") + " " + float_2.join(""));
 	}
 }
 }
