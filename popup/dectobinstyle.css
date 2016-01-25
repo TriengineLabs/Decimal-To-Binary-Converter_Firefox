@@ -1,0 +1,76 @@
+body{
+    width: 300px;
+    min-height: 150px;  
+    background-color: transparent;
+}
+.dectobin {
+    height: 100%;
+    width: 100%;
+}
+
+.projButton{
+
+    position: relative;
+    float: left;
+    height: 25px;
+    border: solid 0px;
+    color: white;
+    border-radius: 0px;
+    background:  #006838;
+    color: white;
+    min-width: 30%;
+    font-size: 0.85em;
+    margin: 1%;
+    padding: 0%;
+    text-align: center;
+    -webkit-appearance: none;
+    
+}
+
+.projButton:focus {outline:0;}
+
+.projButton:hover {
+    background-color: #367a58;
+    color: black;
+    cursor: pointer; 
+}
+
+.inpField {
+    float: left;
+    position: relative;
+    border: solid 1px;
+    border-radius: 0px;
+    width: 50%;
+    font-size: 1em;
+    margin: 1%;
+    padding: 0%;
+    background-color: white;
+    height: 25px;
+}
+
+.inpButton{
+    height: 17%;
+}
+
+#answer {
+    clear: both;
+    float:left;
+    height: 30px;
+}
+
+footer {
+    position: relative;
+    clear: both;
+    bottom: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
